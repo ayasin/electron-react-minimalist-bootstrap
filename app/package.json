@@ -1,0 +1,11 @@
+{
+  "name": "electron-quick-start",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CHANGE ME (AND THE NAME) -- quick start for an electron project",
+  "main": "./server/boot.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

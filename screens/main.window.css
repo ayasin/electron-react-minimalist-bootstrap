@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+body {
+  background-color:  	#F0FFFF;
+  color: #696969;
+  font-family: 'Roboto';
+}
+
+h1 {
+  text-align: center;
+  color: #5F9EA0;
+}
+
+code {
+  color: #a61717;
+  background-color: #FEFEFE;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 1 px solid gray;
+}
+
+li {
+  padding: 8px;
+}
+
+ul {
+  margin: 10px;
+  background-color: #EEEEEE;
+  border-radius: 10px;
+  border: 3px dashed red;
+}
