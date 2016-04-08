@@ -9,17 +9,18 @@ This project is designed to provide you a minimal setup to get going with Electr
 * ES6 and JSX support via Babel
 * Webpack to create bundles
 
-### Usage
+### Making react-electron-bootstrap your own in 10 easy steps
 
-* Clone this repo
-* Open the `./app/package.json` file
-* Change the `name` `description` and `author` to something more approprate
-* Open the `package.json` file at the root of the project
-* Change `ElectronQuickStart` in `package-win32` `package-darwin` and `package-linux` to the name of your application
-* Change the `./app/icon.ico` (Windows icon) to something appropriate for your app
-* Change the `./app/icon.icns` (MAc and Linux icons) to something appropriate for your app
-* Change `main.window.css` to your own CSS file
-* On line 5 of `main.window.entry.js` change the import to your own root component.
+1. Clone this repo
+1. Open the `./app/package.json` file
+1. Change the `name` `description` and `author` to something more approprate
+1. Open the `package.json` file at the root of the project
+1. Change `ElectronQuickStart` in `package-win32` `package-darwin` and `package-linux` to the name of your application
+1. Change the `./app/icon.ico` (Windows icon) to something appropriate for your app
+1. Change the `./app/icon.icns` (MAc and Linux icons) to something appropriate for your app
+1. Change `main.window.css` to your own CSS file
+1. On line 5 of `main.window.entry.js` change the import to your own root component.
+1. Add your own code to suit your purpose!
 
 ### Adding npm modules
 
