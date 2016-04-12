@@ -7,16 +7,10 @@ module.exports = {
   entry: './main.window.entry.js',
 
   plugins: [
-    new CopyWebpackPlugin([
-      {'from': path.join(__dirname, 'screens')}
-    ], {
-      ignore: [
-        '*.js',
-        '*.jsx',
-        '*.sass',
-        '*.less'
-      ]
-    })
+    new CopyWebpackPlugin(
+      [ {'from': path.join(__dirname, 'screens')} ],
+      { ignore: ['*.js', '*.jsx', '*.sass', '*.less'] }
+    )
   ],
 
   output: {
